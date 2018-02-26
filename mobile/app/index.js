@@ -3,7 +3,7 @@ import {StatusBar, View} from 'react-native';
 import CallBreak from './components/CallBreak';
 
 const App = () => (
-  <View>
+  <View style={{flex: 1}}>
     <StatusBar hidden/>
   <CallBreak/>
   </View>

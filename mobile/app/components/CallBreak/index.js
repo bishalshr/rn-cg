@@ -4,11 +4,12 @@ import { View, Text } from 'react-native';
 import Deck from 'app/utils/Deck';
 
 import { compose, lifecycle } from 'recompose';
+import CardArea from 'app/components/generics/CardArea';
 import Background from 'app/components/generics/Background';
 
 const CallBreak = () => (
   <Background>
-    <Text>hare rama</Text>
+    <CardArea/>
   </Background>
 );
 
